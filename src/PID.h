@@ -42,9 +42,7 @@ class PID {
   /**
    * PID Coefficients
    */ 
-  double Kp;
-  double Ki;
-  double Kd;
+  double K_array[3];
 };
 
 #endif  // PID_H
